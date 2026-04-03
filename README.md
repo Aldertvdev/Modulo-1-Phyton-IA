@@ -71,17 +71,19 @@ tipo de idade: <class 'int'>
 
 ## CÓDIGO 🧑🏻‍💻
 
+```cpp
 nome = "Anoni"
-
 idade = 25
-
 altura = 1.75
-
 estudando_ia = True
-
 cursos_concluidos = None
 
 print(f"Nome: {nome} (tipo: {type(nome)})")
 print(f"Idade: {idade} (tipo: {type(idade)})")
 print(f"Altura: {altura} (tipo: {type(altura)})")
 print(f"Estudando IA: {estudando_ia} (tipo: {type(estudando_ia)})")
+", 
+  
+  ",
+};
+```
