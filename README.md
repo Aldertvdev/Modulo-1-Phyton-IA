@@ -163,3 +163,52 @@ contagem de 1 até 10:
 ```
 
 # Exercício 2 (If/else)
+
+O *if* e o *else* servem para o programa tomar decisões.
+
+- if = "SE"
+Se a condição for verdadeira, executa o código que está embaixo dele.
+
+- else = "SENÃO"
+Se a condição do if for falsa, executa o código que está no else.
+
+```cpp
+
+print("=== Exercício 2 - Condicional (if/else) ===\n")
+
+# Vamos testar várias idades automaticamente
+idades = [15, 17, 18, 20, 30]
+
+for idade in idades:
+    print(f"Idade: {idade}")
+    
+    if idade >= 18:
+        print("Você é maior de idade ✅")
+    else:
+        print("Você ainda é menor de idade ❌")
+    
+    print("-" * 40)   # linha separadora
+```
+
+o código executará o seguinte:
+
+```cpp
+=== Exercício 2 - Condicional (if/else) ===
+
+Idade: 15
+Você ainda é menor de idade ❌
+----------------------------------------
+Idade: 17
+Você ainda é menor de idade ❌
+----------------------------------------
+Idade: 18
+Você é maior de idade ✅
+----------------------------------------
+Idade: 20
+Você é maior de idade ✅
+----------------------------------------
+Idade: 30
+Você é maior de idade ✅
+----------------------------------------
+
+```
