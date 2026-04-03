@@ -46,3 +46,42 @@ O código resultara assim
 >3
 
 >4
+
+Podemos dizer 
+
+> print("Olá, Santander Open Academy!")
+> 
+> print("Bem-vindo ao Curso de Cursor com Python + IA")
+> 
+> print("Vamos desenvolver de forma inteligente! 🚀")
+
+ambas vai ficar na linha: 1,2,3 o resultado mostrará a escrita nos parentes ()
+
+## modulo-1/02-variaveis-tipos.py
+
+=== Tipos de dados em Python ===
+
+Nome: > Anoni
+
+Tipo de nome: <class 'str'>
+
+idade: 25 
+
+tipo de idade: <class 'int'>
+
+## CÓDIGO 🧑🏻‍💻
+
+nome = "Anoni"
+
+idade = 25
+
+altura = 1.75
+
+estudando_ia = True
+
+cursos_concluidos = None
+
+print(f"Nome: {nome} (tipo: {type(nome)})")
+print(f"Idade: {idade} (tipo: {type(idade)})")
+print(f"Altura: {altura} (tipo: {type(altura)})")
+print(f"Estudando IA: {estudando_ia} (tipo: {type(estudando_ia)})")
