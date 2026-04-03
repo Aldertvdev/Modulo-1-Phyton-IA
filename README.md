@@ -358,3 +358,83 @@ if gosta_de_ia:
 ```
 
 o *if idade* identificou o numero 18
+
+# Exercício 5 – Listas e loop (for) com if 🧑🏻‍💻
+
+```cpp
+print("=== Exercício 5 - Lista de Alunos e Notas ===\n")
+
+# Lista com nomes e notas
+alunos = ["Yuri", "Ana", "João", "Maria", "Pedro"]
+
+notas = [8.5, 6.0, 9.0, 4.5, 7.5]
+
+print("Resultado dos alunos:\n")
+
+# Loop para verificar cada aluno
+for i in range(len(alunos)):
+    nome = alunos[i]
+    nota = notas[i]
+    
+    print(f"Aluno: {nome} - Nota: {nota}")
+    
+    if nota >= 9:
+        print("   → Excelente! 👏")
+    elif nota >= 7:
+        print("   → Aprovado ✅")
+    elif nota >= 5:
+        print("   → Recuperação ⚠️")
+    else:
+        print("   → Reprovado ❌")
+    
+    print("-" * 40)
+```
+
+exibira:
+```cpp
+=== Exercício 5 - Lista de Alunos e Notas ===
+
+Resultado dos alunos:
+
+Aluno: Yuri - Nota: 8.5
+   → Aprovado ✅
+----------------------------------------
+Aluno: Ana - Nota: 6.0
+   → Recuperação ⚠️
+----------------------------------------
+Aluno: João - Nota: 9.0
+   → Excelente! 👏
+----------------------------------------
+Aluno: Maria - Nota: 4.5
+   → Reprovado ❌
+----------------------------------------
+Aluno: Pedro - Nota: 7.5
+   → Aprovado ✅
+----------------------------------------
+
+```
+
+- E se todos ficar de recuperação
+
+```cpp
+=== Exercício 5 - Lista de Alunos e Notas ===
+
+Resultado dos alunos:
+
+Aluno: Yuri - Nota: 4.0
+   → Reprovado ❌
+----------------------------------------
+Aluno: Ana - Nota: 4.9
+   → Reprovado ❌
+----------------------------------------
+Aluno: João - Nota: 3.0
+   → Reprovado ❌
+----------------------------------------
+Aluno: Maria - Nota: 4.5
+   → Reprovado ❌
+----------------------------------------
+Aluno: Pedro - Nota: 4.2
+   → Reprovado ❌
+----------------------------------------
+
+```  
