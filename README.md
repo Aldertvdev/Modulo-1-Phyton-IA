@@ -57,6 +57,13 @@ print("Vamos desenvolver de forma inteligente! 🚀")
 
 ambas vai ficar na linha: 1,2,3 o resultado mostrará a escrita nos parentes ()
 
+O que deve aparecer na saída?
+```cpp
+Olá, Santander Open Academy!
+Bem-vindo ao Curso de Cursor com Python + IA
+Vamos desenvolver de forma inteligente! 🚀
+```
+
 ## modulo-1/02-variaveis-tipos.py
 
 === Tipos de dados em Python ===
@@ -87,3 +94,11 @@ print(f"Estudando IA: {estudando_ia} (tipo: {type(estudando_ia)})")
   ",
 };
 ```
+
+Explicação rápida do que cada linha faz:
+
+- nome = "Anoni" → cria uma variável do tipo texto (string)
+- idade = 25 → variável do tipo inteiro (int)
+- altura = 1.75 → variável do tipo decimal (float)
+- estudando_ia = True → variável do tipo booleano (True/False)
+- cursos_concluidos = None → significa “nada” ou “vazio”
