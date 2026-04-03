@@ -438,3 +438,8 @@ Aluno: Pedro - Nota: 4.2
 ----------------------------------------
 
 ```  
+## Resumo do que aprendi no Módulo 1
+
+- [ ] Usar print() para mostrar mensagens e resultados
+- [ ] Se a condição do **if** for falsa, o programa executa o código que está no **else**.
+- [ ] O programa verifica se uma condição é **verdadeira**. Se for, executa o código que está indentado (dentro do **if**).
