@@ -443,3 +443,5 @@ Aluno: Pedro - Nota: 4.2
 - [ ] Usar print() para mostrar mensagens e resultados
 - [ ] Se a condição do **if** for falsa, o programa executa o código que está no **else**.
 - [ ] O programa verifica se uma condição é **verdadeira**. Se for, executa o código que está indentado (dentro do **if**).
+
+Gostou? volte no [Curso inteligente com IA](https://github.com/Aldertvdev/Curso-Python-com-IA)
