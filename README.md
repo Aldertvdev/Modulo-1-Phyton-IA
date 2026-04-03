@@ -290,4 +290,71 @@ Nota 4.9 → Reprovado ❌
 
 ```
   
-# Exercício 4 – Usando variáveis + if
+# Exercício 4 – Usando variáveis + if 🧑🏻‍💻
+
+```cpp
+print("=== Exercício 4 - Verificando dados ===\n")
+
+nome = "Yuri Gabriel"
+idade = 17
+tem_celular = True
+gosta_de_ia = True
+
+print(f"Nome: {nome}")
+print(f"Idade: {idade} anos\n")
+
+if idade >= 18:
+    print("✅ Pode tirar CNH")
+else:
+    print("❌ Ainda não pode tirar CNH")
+
+if tem_celular:
+    print("✅ Você tem celular")
+else:
+    print("❌ Não tem celular")
+
+if gosta_de_ia:
+    print("✅ Você gosta de Inteligência Artificial (ótimo!)")
+```
+
+exibira:
+
+```cpp
+=== Exercício 4 - Verificando dados ===
+
+Nome: Yuri Gabriel
+Idade: 17 anos
+
+❌ Ainda não pode tirar CNH
+✅ Você tem celular
+✅ Você gosta de Inteligência Artificial (ótimo!)
+
+```
+
+se eu colocar como eu fosse **maior se 18 anos** exibira o seguinte:
+
+```cpp
+print("=== Exercício 4 - Verificando dados ===\n")
+nome = "Yuri Gabriel"
+idade = 18
+tem_celular = True
+gosta_de_ia = True
+
+print(f"Nome: {nome}")
+print(f"Idade: {idade} anos\n")
+
+if idade >= 18:
+    print("✅ Pode tirar CNH")
+else:
+    print("✅ Ainda não pode tirar CNH")
+
+if tem_celular:
+    print("✅ Você tem celular")
+else:
+    print("✅ Não tem celular")
+
+if gosta_de_ia:
+    print("✅ Você gosta de Inteligência Artificial (ótimo!)")
+```
+
+o *if idade* identificou o numero 18
