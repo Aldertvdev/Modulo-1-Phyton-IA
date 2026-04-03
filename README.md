@@ -102,3 +102,29 @@ Explicação rápida do que cada linha faz:
 - altura = 1.75 → variável do tipo decimal (float)
 - estudando_ia = True → variável do tipo booleano (True/False)
 - cursos_concluidos = None → significa “nada” ou “vazio”
+
+# CONTAGEM DE UMA VARIÁVEIS 🧑🏻‍💻
+
+```cpp
+print("Contagem de 1 até 10:")
+for i in range(1, 11):
+    print(i)
+```
+
+mostrará 
+
+```cpp
+contagem de 1 até 10:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+```
