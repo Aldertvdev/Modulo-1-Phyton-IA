@@ -103,6 +103,39 @@ Explicação rápida do que cada linha faz:
 - estudando_ia = True → variável do tipo booleano (True/False)
 - cursos_concluidos = None → significa “nada” ou “vazio”
 
+ou
+```cpp
+print("=== Exercício de Variáveis ===\n")
+
+nome = "Yuri Gabriel"
+idade = 17
+altura = 1.65
+
+print(f"Olá {nome}!")
+print(f"Você tem {idade} anos.")
+print(f"Sua altura é {altura}m.")
+
+print("\nTipos dos dados:")
+print(f"Tipo do nome: {type(nome)}")
+print(f"Tipo da idade: {type(idade)}")
+print(f"Tipo da altura: {type(altura)}")
+```
+MOSTRARÁ: 
+```cpp
+=== Exercício de Variáveis ===
+
+Olá Yuri Gabriel!
+Você tem 17 anos.
+Sua altura é 1.65m.
+
+Tipos dos dados:
+Tipo do nome: <class 'str'>
+Tipo da idade: <class 'int'>
+Tipo da altura: <class 'float'>
+
+[Program finished]
+```
+
 # CONTAGEM DE UMA VARIÁVEIS 🧑🏻‍💻
 
 ```cpp
@@ -128,3 +161,5 @@ contagem de 1 até 10:
 10
 
 ```
+
+# Exercício 2 (If/else)
