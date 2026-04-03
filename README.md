@@ -212,3 +212,10 @@ Você é maior de idade ✅
 ----------------------------------------
 
 ```
+Explicação linha por linha:
+
+- O Python olha para idade >= 18
+  
+- Se for verdade (ex: idade 20, 25, 30...) → ele entra no if e imprime "maior de idade"
+ 
+- Se for mentira (ex: idade 15, 17...) → ele pula o if e vai para o else e imprime "menor de idade"
