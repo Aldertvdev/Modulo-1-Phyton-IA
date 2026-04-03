@@ -162,7 +162,7 @@ contagem de 1 até 10:
 
 ```
 
-# Exercício 2 (If/else)
+# Exercício 2 (If/else) 🧑🏻‍💻
 
 O *if* e o *else* servem para o programa tomar decisões.
 
@@ -219,3 +219,23 @@ Explicação linha por linha:
 - Se for verdade (ex: idade 20, 25, 30...) → ele entra no if e imprime "maior de idade"
  
 - Se for mentira (ex: idade 15, 17...) → ele pula o if e vai para o else e imprime "menor de idade"
+
+# Exercício 3 – if, elif e else 🧑🏻‍💻
+
+```cpp
+print("=== Exercício 3 - Nota do aluno ===\n")
+
+nota = 7.5
+
+if nota >= 9:
+    print(f"Nota {nota} → Excelente! Parabéns 👏")
+elif nota >= 7:
+    print(f"Nota {nota} → Aprovado ✅")
+elif nota >= 5:
+    print(f"Nota {nota} → Recuperação ⚠️")
+else:
+    print(f"Nota {nota} → Reprovado ❌")
+```
+
+o Python detecta aprovação somente no **if**.
+básicamente a nota: =7 está na aprovação ✅, se colocar nota: =5 ⚠️, recuperação e nota: = 0 ❌
