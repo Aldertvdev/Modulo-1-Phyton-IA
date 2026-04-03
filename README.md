@@ -19,3 +19,30 @@ Casos de uso
 
 # Site oficial do Python (seção de download):
 [Downloads do Python](https://www.python.org/downloads/)
+
+# Vamos lá 
+Crie um novo arquivo: vá para Arquivo > Novo Arquivo ou simplesmente pressione Ctrl+N. Escreva um código Python curto, por exemplo:
+
+> print("Hello, cursos")
+
+> for i in range(5)
+
+> print(i)
+
+o (for i in range (5) 
+   print(i) )
+coloca tudo na segunda linha, o print na terceira linha
+
+O código resultara assim
+
+>Hello, cursos
+>
+>0
+
+>1
+
+>2
+
+>3
+
+>4
