@@ -290,3 +290,4 @@ Nota 4.9 → Reprovado ❌
 
 ```
   
+# Exercício 4 – Usando variáveis + if
