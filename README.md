@@ -23,14 +23,12 @@ Casos de uso
 # Vamos lá 
 Crie um novo arquivo: vá para Arquivo > Novo Arquivo ou simplesmente pressione Ctrl+N. Escreva um código Python curto, por exemplo:
 
-> print("Hello, cursos")
+```cpp
+print("Hello, Cursor")
+for i in range(5):
+    print(i)
+```
 
-> for i in range(5)
-
-> print(i)
-
-o (for i in range (5) 
-   print(i) )
 coloca tudo na segunda linha, o print na terceira linha
 
 O código resultara assim
@@ -49,11 +47,13 @@ O código resultara assim
 
 Podemos dizer 
 
-> print("Olá, Santander Open Academy!")
-> 
-> print("Bem-vindo ao Curso de Cursor com Python + IA")
-> 
-> print("Vamos desenvolver de forma inteligente! 🚀")
+```cpp
+print("Olá, Santander Open Academy!")
+
+print("Bem-vindo ao Curso de Cursor com Python + IA")
+
+print("Vamos desenvolver de forma inteligente! 🚀")
+```
 
 ambas vai ficar na linha: 1,2,3 o resultado mostrará a escrita nos parentes ()
 
