@@ -238,4 +238,55 @@ else:
 ```
 
 o Python detecta aprovação somente no **if**.
-básicamente a nota: =7 está na aprovação ✅, se colocar nota: =5 ⚠️, recuperação e nota: = 0 ❌
+básicamente a nota: =7 está na aprovação ✅, se colocar nota: =5 ⚠️, recuperação e nota: = 4.9❌
+
+exemplos
+- Recuperação ⚠️
+ 
+```cpp
+print("=== Exercício 3 - Nota do aluno ===\n")
+
+nota = 5.0
+
+if nota >= 9:
+    print(f"Nota {nota} → Excelente! Parabéns 👏")
+elif nota >= 7:
+    print(f"Nota {nota} → Aprovado ✅")
+elif nota >= 5:
+    print(f"Nota {nota} → Recuperação ⚠️")
+else:
+    print(f"Nota {nota} → Reprovado ❌")
+```
+exibirá:
+
+```cpp
+=== Exercício 3 - Nota do aluno ===
+
+Nota 5.0 → Recuperação ⚠️
+```
+- Reprovado ❌
+  
+```cpp
+print("=== Exercício 3 - Nota do aluno ===\n")
+
+nota = 4.9
+
+if nota >= 9:
+    print(f"Nota {nota} → Excelente! Parabéns 👏")
+elif nota >= 7:
+    print(f"Nota {nota} → Aprovado ✅")
+elif nota >= 5:
+    print(f"Nota {nota} → Recuperação ⚠️")
+else:
+    print(f"Nota {nota} → Reprovado ❌")
+```
+
+exibirá:
+
+```cpp
+=== Exercício 3 - Nota do aluno ===
+
+Nota 4.9 → Reprovado ❌
+
+```
+  
